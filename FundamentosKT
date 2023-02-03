@@ -1,1 +1,14 @@
 
+fun main() {
+ println("ola mundo")
+println("a cadeira e legal")
+println("argentino_hablas espanol")
+println("Br_pele e uma lenda  jogador caro")
+println("argentino boludo neymar e mto melhor q messi aq e pele fdp")
+println("clbc br falidonn nn ganha uma copa des de 2002 duas copa sua nn vale")
+println("fdp tenho 5 copas pele sozinho ganhou 3 copas messi so ganhou 1 fdp")
+println("maradona tem uma copa e ja consegue ser melhor q pele seu boludo")
+println("maradona tem nem moral pra falar de pele boludo arrombado fdp")
+println("ok ent pele e melhor fim de papo")
+
+}
