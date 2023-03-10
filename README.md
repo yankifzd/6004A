@@ -124,3 +124,112 @@ if(sorvete > chocolate){
     println("o numero $chocolate e maior que $sorvete")
 }
 }
+-------------------------------------------------------------------------------------
+
+fun main() {
+    
+}
+//exercicio 2 - faça um programa que indique no console se um numero
+//verificado e positivo ou negativo
+/*
+var minecraft = -1 
+
+
+ if(minecraft > 0){
+    println("O $minecraft e um numero positivo")
+ }else if(minecraft < 0){
+    println("O $minecraft e um numero positivo")
+ }else{
+   println("O $minecraft nao e nem postivo e nem negativo ")
+ }
+ */
+ 
+ 
+//Operades logicos
+//
+// sao usados para comparar mais de um valor na mesma posiçao
+//
+// && --> e (shift + 7) -->
+// || --> ou (shift + A barrinha invertida ao dele)(PIPELE)
+//
+// TABELA VERDADE
+// e... para que o resultado seja verdadeiro todas as condiçoes =precisam ser verdadeiras
+// W
+// VF
+// FV
+// FF 
+//
+// W - v
+// VR - f
+// FV - f
+// FF - f
+// ou... para que o resultado seja verdadeiro pelo menos uma condiçao deve ser veradeira
+// W - v
+// VF - v
+// FV - v
+// FF - f
+//
+//
+//
+//
+//
+/*
+var coracoes = 0
+var vidas = 0
+if(vidas <= 00 && coracoes <= 0){
+}else{
+    println("------ o jogo sera reinicado-------")
+*/
+// when - quando...
+// quando  um determinado valor for verdadeiro uma determinada açao
+// sera executada
+//
+// Estrutura do When
+//
+// when(var a ser comprado)
+// valor -> {açao}
+// valor -> {açao}
+// valor -> {açao}
+// else -> {açao}
+// }
+/*
+var mes = 12
+when(mes){
+    1 -> {println("janeiro")}
+    2 -> {println("fevereiro")}
+    3 -> {println("março")}
+    4 -> {println("abril")}
+    5 -> {println("maio")}
+    6 -> {println("junho")}
+    7 -> {println("julho")}
+    8 -> {println("agosto")}
+    9 -> {println("setembro")}
+    10 -> {println("outubro")}
+    11 -> {println("novembro")}
+    12 -> {println("dezembro")}
+    else -> {println(mes invalido)}
+    */
+    // laços de repetiçao
+    //
+    // do..while - faça... enquanto
+    // whiçe - enquanto
+    // for - para
+    // repeat - re´pita
+    //
+    //while --> enquanto uma condiçao verdadeira uma determinada açao e executada ate que nao seja mais verdadeira
+    //
+    var bolo = 500
+    
+
+    while(bolo <= 520){
+        println(bolo)
+        bolo++
+    }
+    
+    
+    //do.. while -> ele vai executar uma determinada açao enquato uma condiçao for verdadeira
+    println("")
+    do{
+        println(bolo)
+        bolo++
+   {while(bolo <= 520)    
