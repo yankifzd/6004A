@@ -1,1 +1,86 @@
 
+fun main() {
+/*
+    val pessoa1 = Pessoa() //criando um obj  
+    //println(pessoa1.altura) //exibe um atributo de um obj
+    //println(pessoa1.nome)
+    pessoa1.nome = "Jose" // alternando o atributo de um obj
+    println(pessoa1.nome)
+    pessoa1.altura = 3.10
+    pessoa1.nacionalidade = "colombiano"
+    pessoa1.peso = 25.39
+    pessoa1.idade = 27
+    println("${pessoa1.altura}, ${pessoa1.nacionalidade}, ${pessoa1.idade}, ${pessoa1.peso}, ${pessoa1.nome}")
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    val pessoa2 = Pessoa()
+    pessoa2.nome = "Cleitinho"
+    //println(pessoa2.nome)
+    pessoa2.peso = 80.02
+    pessoa2.altura = 1.90
+    pessoa2.idade = 25
+    pessoa2.nacionalidade = "frança"
+    println("${pessoa2.nome}, ${pessoa2.idade}, ${pessoa2.peso}, ${pessoa2.altura}, ${pessoa2.nacionalidade}")
+    
+    
+    
+    val pessoa3 = Pessoa()
+    pessoa3.nome = "vinicius"
+    pessoa3.peso = 150.90
+    pessoa3.altura = 4.89
+    pessoa3.idade = 45
+    pessoa3.nacionalidade = "brasil"
+    println("${pessoa3.nome}, ${pessoa3.idade}, ${pessoa3.peso}, ${pessoa3.altura}, ${pessoa3.nacionalidade}")
+    
+    
+    
+    
+    val pessoa4 = Pessoa()
+    pessoa4.nome = "bruno"
+    pessoa4.peso = 67.76
+    pessoa4.altura = 2.65
+    pessoa4.idade = 18
+    pessoa4.nacionalidade = "paraguai"
+    println("${pessoa4.nome}, ${pessoa4.idade}, ${pessoa4.peso}, ${pessoa4.altura}, ${pessoa4.nacionalidade}")
+  */
+    
+    
+
+  
+  val bolo1 = Bolo("morango", "2m", "amendoim", 120.00, "1000 morangos", true)
+  println("Meu bolo e de ${bolo1.sabor} e tem ${bolo1.tamanho}, o recheio dele e de ${bolo1.recheio}, a cobertura dele e de")
+  println("${bolo1.cobertura}, ele custa R$${bolo1.preco}, em seu completamento em ${bolo1.complemento}. se ele ta pronto ${boo1.proto}")
+  /*
+  val pessoa2 = Pessoa()
+  println(pessoa2.altura)
+  */  
+}
+
+
+
+class Pessoa (){
+    //criaçao de atributos para a classe Pessoa
+    //os valores dados aqui, sao padroes
+    var nome = ""
+    var idade = 0
+    var altura = 1.90
+    var peso = 30.0
+    var nacionalidade = "italiano"
+    
+} 
+    
+    class Bolo(var sabor:String, var tamanho: String, var recheio:String, var cobertura: String, var preço: Double, var complemento: String, var pronto:Boolean){    
+    
+    
+    
+}    
+    
