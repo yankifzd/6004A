@@ -83,4 +83,60 @@ class Pessoa (){
     
     
 }    
+----------------------------------------------------------------------------------------------------------------
+
+fun main() {/*
+      val animalzin = Animal("Raposa", "feneco", 0.70, 35.0, "onivora", 40.0)
+      animalzin.correr(700.0)
+      animalzin.comer("galinha")
+      animalzin.rir()
+      animalzin.naoPegue()
+ */
+
+
+
+var usuario = ContaBanco(-100.0, 1456156754784564156, 5018)
+usuario.consultaSaldo(5018)
+}
+
+class ContaBanco(val saldo: Double, var numeroConta: Long, var senhaCorreta: Int){
     
+    fun consultaSaldo(senha: Int){
+        
+        if(senha == senhaCorreta){
+            println("Saldo: R$$saldo")
+        }else{
+            println("Senha Incorreta")
+        }  
+         
+       
+         
+}
+ class Animal(
+ 
+ var especie: String,
+ var raca: String,
+ var altura: Double,
+ var peso:Double,
+ var dieta: String,
+ var comprimento: Double
+ ){   
+    fun correr( velocidade: Double){
+        println("correndo em uma velocidade de $velocidade km")
+    }
+    fun comer( comida: String){
+        println("comendo um(a) $comida")
+    }
+    fun rir(){
+        print("rindo KK")
+    }
+    fun naoPegue(){
+        println("repitam comigo!!")
+        println("RAPOSO NAO PEGUE!!")
+    }
+ 
+   
+   
+ }
+}
+      
